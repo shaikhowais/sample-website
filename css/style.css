@@ -1,57 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti|Open+Sans');
+
 body {
-    max-width: 80%;
-    margin: auto;
-    }
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0 auto;
+}
 
 a {
-    color: #2196F3;
-    text-decoration: none;
+  color: #2196F3;
+  text-decoration: none;
 }
 
 h1.name {
-    font-size: 44px;
-    text-align: center;
-    margin: 64px 0 0 0;
-    border-top: 1px solid #999;
-    padding: 5px;
+  font-size: 44px;
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+  padding: 5px;
 }
 
 .about {
-    text-align: center;
-    font-size: 25px;
-    padding: 5px;
-    margin: 0 0 5px 0;
+  text-align: center;
+  font-family: 'Calligraffitti', cursive;
+  font-size: 20px;
+  padding: 5px;
+  margin: 0 0 5px 0;
 }
 
-.body-img img {
-    width: 100%;
-    /*height: 500px;*/
-    padding: 5px 0;
+img {
+  max-width: 100%;
 }
 
 .footer {
-    border-top: 1px solid #999;
+  border-top: 1px solid #999;
+  width: 90%;
+  margin: auto;
 }
 .footer {
-    clear: both;
-    overflow: hidden;
+  clear: both;
+  overflow: hidden;
 }
 
 .hire, .social {
-    width: 49%;
+  width: 49%;
 }
 
 .hire {
-    float: left;
-    padding: 37px 0 37px 5px;
+  display: inline-block;
+  text-align: center;
+  padding: 37px 0 37px 5px;
 }
 
 .social {
-    float: right;
-    text-align: right;
-    padding: 0 5px 0 0;
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  padding: 0 5px 0 0;
 }
 
-.social p {
-    margin: 10px;
+.social li {
+  margin: 10px;
+  display: inline-block;
 }
